@@ -1,0 +1,26 @@
+{
+  "name": "@local/dsh-linux-dispatch-preset",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Linux-only Code Mode dispatch agent preset for DeepSeek Harness, ported from @eddyskywalker/dsh-chatgpt-subscription.",
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "files": [
+    "cordis.patch.yml",
+    "presets",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "@eddyskywalker/dsh-chatgpt-subscription": ">=0.80.0",
+    "@deepseek-ai/dsh-agent-preset": "*"
+  },
+  "peerDependenciesMeta": {
+    "@eddyskywalker/dsh-chatgpt-subscription": {
+      "optional": true
+    }
+  }
+}

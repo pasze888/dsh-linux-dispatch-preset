@@ -1,0 +1,3 @@
+name: Linux 调度模式
+description: 基于 Code Mode 的调度 Agent（dispatch preset 的 Linux 适配版）：按决策状态分诊、显式路由子代理、统一验收；shell 只走 bash，不含任何 Windows 分支。
+order: 6
