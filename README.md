@@ -29,16 +29,10 @@ DeepSeek Harness 的 **Linux 专用调度 Agent preset**。
 
 ## 安装
 
-先取得源码：
+DSH 支持直接从 GitHub 仓库 URL 安装，无需先手动克隆：
 
 ```sh
-git clone https://github.com/pasze888/dsh-linux-dispatch-preset.git
-```
-
-然后将本地目录加入 DSH profile：
-
-```sh
-dsh plugin --profile web add /absolute/path/dsh-linux-dispatch-preset
+dsh plugin --profile web add https://github.com/pasze888/dsh-linux-dispatch-preset
 ```
 
 安装后重启 DSH Web。补丁行 ID 为 `linux-dispatch-preset`，可在 Plugins 页面单独启停。
